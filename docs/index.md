@@ -13,6 +13,7 @@ A private learning hub for getting to world-class prompt engineering, and the co
     It is synced to the Principal / Enterprise / Agentic AI Architect resume story (multi-agent, MCP, entitlement-aware RAG, evals, governance).
     Master that checklist; treat the full L0–L5 roadmap as the remaining 80% to deepen on demand.
     Drill every topic with the [**Architect 20% Workbook**](learning-path/architect-20-mastery/index.md): plain-English explanations, questions from simple to tricky, and resume-synced scenarios.
+    Turn what you learn into LinkedIn posts with the [**Blog Series**](blog-series/index.md).
 
 1. Start with the [Architect 20% path](learning-path/architect-20.md) (role-aligned), or the full [Roadmap](learning-path/roadmap.md) (L0 to L5) if you want the complete catalog.
 2. Follow the [12-week plan](learning-path/weekly-plan.md) only after the 20% checklist — or compress it using the Architect sprints.
@@ -45,6 +46,7 @@ flowchart TB
 | --- | --- |
 | [Architect 20%](learning-path/architect-20.md) | Resume-synced “master 20%, deepen later” path for Architecture roles |
 | [Architect 20% Workbook](learning-path/architect-20-mastery/index.md) | Topic-by-topic explanations and practice questions, plus exit drills |
+| [Blog Series](blog-series/index.md) | Curated 16-post LinkedIn series built from the 20% topics, with hooks, outlines and a writing template |
 | [Learning Path](learning-path/roadmap.md) | Full L0–L5 levels, weekly plan, progress dashboard |
 | [Modules](modules/index.md) | 25 design docs, one per topic, all using the same template |
 | [Architectures](architectures/index.md) | System designs for LLM apps and agents, as diagrams |

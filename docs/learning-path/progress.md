@@ -60,6 +60,29 @@ See the [Tutorial tracker](../tutorials/index.md). Course progress is kept there
 | [B: Research agent with tools](../capstones/index.md#capstone-b-research-agent-with-tools) | todo | | |
 | [C: Prompt optimizer with DSPy](../capstones/index.md#capstone-c-prompt-optimizer-with-dspy) | todo | | |
 
+## Blog series
+
+LinkedIn posts from the [Blog Series](../blog-series/index.md) page. **Status keys:** `idea` · `drafting` · `review` (confidentiality / compliance check) · `scheduled` · `published`
+
+| # | Post | Target week | Status | Published (link) |
+| --- | --- | --- | --- | --- |
+| 0 | The 20% of prompt engineering an architect actually needs | W1 | idea | |
+| 1 | Prompts are contracts, not clever wording | W4 | idea | |
+| 2 | Valid JSON isn't correct output | W5 | idea | |
+| 3 | Context beats clever wording | W6 | idea | |
+| 4 | RAG in a bank: access control lives in retrieval | W7 | idea | |
+| 5 | Why wash-trade detection needed GraphRAG | W3 | idea | |
+| 6 | Workflows first, agents second | W8 | idea | |
+| 7 | The model asks, your code decides: tools and MCP | W9 | idea | |
+| 8 | Six agents: when multi-agent is worth it | W10 | idea | |
+| 9 | No release without evals | W11 | idea | |
+| 10 | Prompt injection when the suspects write your input | W2 | idea | |
+| 11 | Prompt, RAG, GraphRAG or fine-tune? | W12 | idea | |
+| 12 | Model routing: the smallest model that holds quality | W13 | idea | |
+| 13 | Design for the bad day | W14 | idea | |
+| 14 | An LLM agent is a model: governance in a bank | W15 | idea | |
+| 15 | Prompt-engineering myths I stopped believing | W16 | idea | |
+
 ## Self-assessment
 
 The baseline is in [the first journal entry](../journal/2026-10-07-hub-created.md).
