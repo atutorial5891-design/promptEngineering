@@ -1,5 +1,8 @@
 # Roadmap: L0 to L5
 
+!!! tip "Architecture role? Filter first"
+    If you are targeting Principal / Enterprise / Agentic AI Architect, start with the [Architect 20% path](architect-20.md). Use this L0–L5 roadmap as the full catalog and for the remaining ~80% depth.
+
 Prompt engineering in 2026 is much more than clever wording. It covers four disciplines:
 
 1. **Instructing** models clearly (prompting).

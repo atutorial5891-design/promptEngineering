@@ -8,8 +8,13 @@ A private learning hub for getting to world-class prompt engineering, and the co
 
 ## How to use this hub
 
-1. Start with the [Roadmap](learning-path/roadmap.md) to see the six levels (L0 to L5) and what "mastery" means at each one.
-2. Follow the [12-week plan](learning-path/weekly-plan.md), which interleaves modules, tutorials, and labs.
+!!! tip "Start here if you are targeting an Architecture role"
+    Use the [**Architect 20% learning path**](learning-path/architect-20.md) first.
+    It is synced to the Principal / Enterprise / Agentic AI Architect resume story (multi-agent, MCP, entitlement-aware RAG, evals, governance).
+    Master that checklist; treat the full L0–L5 roadmap as the remaining 80% to deepen on demand.
+
+1. Start with the [Architect 20% path](learning-path/architect-20.md) (role-aligned), or the full [Roadmap](learning-path/roadmap.md) (L0 to L5) if you want the complete catalog.
+2. Follow the [12-week plan](learning-path/weekly-plan.md) only after the 20% checklist — or compress it using the Architect sprints.
 3. For each module:
     - Read the design doc in [Modules](modules/index.md).
     - Do the lab in `labs/`.
@@ -22,7 +27,8 @@ A private learning hub for getting to world-class prompt engineering, and the co
 
 ```mermaid
 flowchart TB
-  Roadmap[Learning Path] --> Modules
+  Architect20[Architect_20_percent] --> Modules
+  Roadmap[Full_L0_L5_Roadmap] --> Modules
   Modules --> Labs[Python Labs]
   Modules --> Architectures
   Modules --> Patterns[Pattern Catalog]
@@ -36,7 +42,8 @@ flowchart TB
 
 | Section | What's inside |
 | --- | --- |
-| [Learning Path](learning-path/roadmap.md) | Levels, milestones, weekly plan, progress dashboard |
+| [Architect 20%](learning-path/architect-20.md) | Resume-synced “master 20%, deepen later” path for Architecture roles |
+| [Learning Path](learning-path/roadmap.md) | Full L0–L5 levels, weekly plan, progress dashboard |
 | [Modules](modules/index.md) | 25 design docs, one per topic, all using the same template |
 | [Architectures](architectures/index.md) | System designs for LLM apps and agents, as diagrams |
 | [Patterns](patterns/catalog.md) | Quick-lookup cards for prompting techniques |

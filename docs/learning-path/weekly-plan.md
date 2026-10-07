@@ -1,5 +1,8 @@
 # 12-Week Plan
 
+!!! tip "Shorter Architecture track"
+    Prefer the five sprints in [Architect 20%](architect-20.md) if you only need role-aligned depth. Use this 12-week plan when you want the full catalog, including the deferred 80%.
+
 The plan assumes about 6 to 8 hours a week:
 
 - 2 to 3 hours of reading the module and its references

@@ -4,6 +4,19 @@ Update this page whenever you finish a module, a lab, or a course section.
 
 **Status keys:** `todo` · `reading` · `lab` · `done` · `review` (needs a refresh because models changed)
 
+## Architect 20% track
+
+Priority filter for Architecture roles. Details and checklists: [Architect 20%](architect-20.md).
+
+| Tier | Focus | Status |
+| --- | --- | --- |
+| A | Foundations (01–05) | todo |
+| B | Resume core — context, RAG, agents, MCP (06, 10–12, 14–17) | todo |
+| C | Ship and defend (09, 18, 20–22) | todo |
+| Exit | Prompt contract + eval pack + architecture walkthrough | todo |
+
+Mark a tier `done` only when every checkbox in that tier on the Architect 20% page is checked.
+
 ## Modules
 
 | # | Module | Level | Status | Lab done | Last reviewed |
