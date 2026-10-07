@@ -1,0 +1,8 @@
+id: sentiment.zero_shot.v1
+description: Zero-shot 3-way sentiment classification (module 03 lab baseline).
+variables: [review]
+user: |
+  Classify the sentiment of the customer review as positive, negative, or mixed.
+  Reply with only the label.
+
+  Review: {{ review }}

@@ -1,0 +1,30 @@
+{"id": 1, "input": "Arrived a day early and works exactly as described.", "label": "positive"}
+{"id": 2, "input": "The strap snapped the first week. Total waste of money.", "label": "negative"}
+{"id": 3, "input": "Gorgeous screen, but the speakers are tinny and quiet.", "label": "mixed"}
+{"id": 4, "input": "Not bad at all, honestly better than I expected for the price.", "label": "positive"}
+{"id": 5, "input": "I wanted to love it. I don't.", "label": "negative"}
+{"id": 6, "input": "Setup was a nightmare, though once running it's been rock solid.", "label": "mixed"}
+{"id": 7, "input": "Five stars for the customer service team, who replaced it in two days.", "label": "positive"}
+{"id": 8, "input": "Oh great, another charger that stops working after a month. Fantastic.", "label": "negative"}
+{"id": 9, "input": "Comfortable to wear all day; battery barely lasts a morning.", "label": "mixed"}
+{"id": 10, "input": "Does what it says. Nothing more, nothing less, and that's fine by me.", "label": "positive"}
+{"id": 11, "input": "Returned it. The color was nothing like the photos.", "label": "negative"}
+{"id": 12, "input": "The coffee tastes amazing but the machine leaks onto the counter every morning.", "label": "mixed"}
+{"id": 13, "input": "My kids use it daily and it still looks new after a year.", "label": "positive"}
+{"id": 14, "input": "Customer support kept me on hold for an hour and then hung up.", "label": "negative"}
+{"id": 15, "input": "Lightweight and fast, although the keyboard feels cheap.", "label": "mixed"}
+{"id": 16, "input": "Can't recommend it enough - bought a second one for my parents.", "label": "positive"}
+{"id": 17, "input": "It's fine I guess, if you enjoy restarting it every hour.", "label": "negative"}
+{"id": 18, "input": "Excellent sound quality; the app is buggy and crashes constantly.", "label": "mixed"}
+{"id": 19, "input": "Zero complaints after six months of heavy use.", "label": "positive"}
+{"id": 20, "input": "The instructions were missing and two screws didn't fit.", "label": "negative"}
+{"id": 21, "input": "Love the design, hate the price.", "label": "mixed"}
+{"id": 22, "input": "I was skeptical, but this blender crushes ice like a champ.", "label": "positive"}
+{"id": 23, "input": "Smells like burning plastic whenever it's on.", "label": "negative"}
+{"id": 24, "input": "Great camera in daylight, useless at night.", "label": "mixed"}
+{"id": 25, "input": "Not a single issue, and it looks great on my desk.", "label": "positive"}
+{"id": 26, "input": "Would give zero stars if I could.", "label": "negative"}
+{"id": 27, "input": "The food was delicious; the delivery took two hours and arrived cold.", "label": "mixed"}
+{"id": 28, "input": "Exactly the upgrade my old laptop needed.", "label": "positive"}
+{"id": 29, "input": "Cute idea, poorly executed, and it broke on day two.", "label": "negative"}
+{"id": 30, "input": "Fits perfectly, though the fabric pills after a few washes.", "label": "mixed"}

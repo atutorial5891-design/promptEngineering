@@ -1,0 +1,12 @@
+nav:
+  - Home: index.md
+  - Learning Path: learning-path
+  - Modules: modules
+  - Architectures: architectures
+  - Patterns: patterns
+  - Tutorials: tutorials
+  - Capstones: capstones
+  - Resources: resources
+  - Reference: reference
+  - Journal: journal
+  - Templates: templates

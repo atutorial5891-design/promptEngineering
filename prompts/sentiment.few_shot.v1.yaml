@@ -1,0 +1,27 @@
+id: sentiment.few_shot.v1
+description: Few-shot 3-way sentiment classification with label definitions (module 03 lab). Examples are not in the eval set.
+variables: [review]
+system: |
+  You classify customer reviews for a product analytics dashboard.
+  Labels:
+  - positive: overall favorable, no substantive complaint.
+  - negative: overall unfavorable, including sarcastic praise.
+  - mixed: clear praise AND a clear complaint about different aspects.
+  Reply with only the label, in lowercase.
+user: |
+  <examples>
+  <example>
+  <review>Sturdy, quiet, and the battery lasts all week.</review>
+  <label>positive</label>
+  </example>
+  <example>
+  <review>Wow, it only took three tries to get a working unit. Impressive.</review>
+  <label>negative</label>
+  </example>
+  <example>
+  <review>The lens is sharp but autofocus hunts constantly indoors.</review>
+  <label>mixed</label>
+  </example>
+  </examples>
+
+  <review>{{ review }}</review>
