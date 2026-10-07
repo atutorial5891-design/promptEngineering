@@ -70,7 +70,7 @@ Accuracy with vs. without CoT on a 30-item multi-step dataset, on a non-reasonin
 - [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903)
 - [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)
 - [Take a Step Back](https://arxiv.org/abs/2310.06117)
-- [Anthropic: Let Claude think](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
+- [Anthropic: Prompting best practices - thinking](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#leverage-thinking-and-interleaved-thinking-capabilities)
 
 ## 10. Tutorials covering this module
 

@@ -139,8 +139,8 @@ Use an *ablation*: remove one component at a time and measure the drop on a smal
 
 ## 9. Must-read references
 
-- [Anthropic: Prompt engineering overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
-- [OpenAI: Prompt guidance](https://developers.openai.com/api/docs/guides/prompt-guidance)
+- [Anthropic: Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
+- [OpenAI: Latest model guide (prompting guidance)](https://developers.openai.com/api/docs/guides/latest-model)
 - [Google: Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)
 - [The Instruction Hierarchy](https://arxiv.org/abs/2404.13208): why system messages outrank user messages
 

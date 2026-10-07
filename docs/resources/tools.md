@@ -27,8 +27,8 @@
 | Tool | Modules | Notes |
 | --- | --- | --- |
 | [Langfuse](https://langfuse.com/) | 21 | Open-source tracing, prompt management, and evals |
-| [Arize Phoenix](https://phoenix.arize.com/) | 18, 21 | Open-source tracing and eval UI |
-| [LangSmith](https://docs.smith.langchain.com/) | 21 | Tracing and datasets for the LangChain ecosystem |
+| [Arize Phoenix](https://arize.com/phoenix/) | 18, 21 | Open-source tracing and eval UI |
+| [LangSmith](https://docs.langchain.com/langsmith/observability) | 21 | Tracing and datasets for the LangChain ecosystem |
 
 ## Security
 

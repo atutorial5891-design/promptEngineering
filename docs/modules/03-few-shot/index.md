@@ -138,7 +138,7 @@ flowchart LR
 - [Rethinking the Role of Demonstrations](https://arxiv.org/abs/2202.12837)
 - [Calibrate Before Use](https://arxiv.org/abs/2102.09690)
 - [Many-Shot In-Context Learning](https://arxiv.org/abs/2404.11018)
-- [Anthropic: Use examples (multishot prompting)](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting)
+- [Anthropic: Prompting best practices - examples](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#use-examples-effectively)
 
 ## 10. Tutorials covering this module
 

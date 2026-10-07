@@ -61,6 +61,11 @@ The default is local only, using `uv run mkdocs serve`. To host the site, build 
 
 GitHub Pages isn't recommended because Pages sites are public, even for private repos, on non-Enterprise plans.
 
+## Notes
+
+- MkDocs is pinned to `<2`. MkDocs 2.0 removes the plugin system this site relies on. If you move off MkDocs 1.x later, Zensical (from the Material for MkDocs team) can read `mkdocs.yml`.
+- Instructions for AI coding agents working in this repo are in `AGENTS.md`.
+
 ## Secrets
 
 - API keys go only in `.env`, which is git-ignored.

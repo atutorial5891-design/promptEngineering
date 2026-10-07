@@ -72,7 +72,7 @@ Track task success without rework on a set of 10 representative tasks; compare w
 ## 9. Must-read references
 
 - [AGENTS.md](https://agents.md/)
-- [Anthropic: Claude Code best practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+- [Anthropic: Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 - [OpenAI: GPT-5 prompting guide (coding/Cursor section)](https://developers.openai.com/cookbook/examples/gpt-5/gpt-5_prompting_guide)
 
 ## 10. Tutorials covering this module

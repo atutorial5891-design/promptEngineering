@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - Entry Template: entry-template.md
+  - glob: "2*.md"
+    ignore_no_matches: true

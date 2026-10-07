@@ -73,7 +73,7 @@ Tool-selection accuracy and argument correctness on a labeled set of requests; e
 ## 9. Must-read references
 
 - [Anthropic: Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents)
-- [OpenAI: Function calling](https://platform.openai.com/docs/guides/function-calling)
+- [OpenAI: Function calling](https://developers.openai.com/api/docs/guides/function-calling)
 - [Toolformer](https://arxiv.org/abs/2302.04761)
 
 ## 10. Tutorials covering this module

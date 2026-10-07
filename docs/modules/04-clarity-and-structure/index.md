@@ -131,8 +131,8 @@ flowchart TB
 
 ## 9. Must-read references
 
-- [Anthropic: Be clear and direct / prompting best practices](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)
-- [OpenAI: Prompt guidance](https://developers.openai.com/api/docs/guides/prompt-guidance)
+- [Anthropic: Claude prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
+- [OpenAI: Latest model guide (prompting guidance)](https://developers.openai.com/api/docs/guides/latest-model)
 - [Sclar et al.: Sensitivity to spurious prompt features](https://arxiv.org/abs/2310.11324): why you must evaluate formatting choices
 
 ## 10. Tutorials covering this module

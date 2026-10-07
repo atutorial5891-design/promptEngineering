@@ -75,7 +75,7 @@ Same task with full context vs. curated context vs. just-in-time retrieval: accu
 
 - [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172)
-- [Chroma: Context Rot](https://research.trychroma.com/context-rot)
+- [Chroma: Context Rot](https://www.trychroma.com/research/context-rot)
 - [Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093)
 
 ## 10. Tutorials covering this module

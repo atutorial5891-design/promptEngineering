@@ -128,7 +128,7 @@ flowchart LR
 
 ## 9. Must-read references
 
-- [OpenAI: Structured outputs guide](https://platform.openai.com/docs/guides/structured-outputs)
+- [OpenAI: Structured outputs guide](https://developers.openai.com/api/docs/guides/structured-outputs)
 - [Instructor](https://python.useinstructor.com/): validated outputs with retries
 - [Let Me Speak Freely?](https://arxiv.org/abs/2408.02442): format restrictions vs. reasoning
 

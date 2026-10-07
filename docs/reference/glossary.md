@@ -27,11 +27,20 @@ DSPy
 Effort / thinking level
 :   A setting that controls how much a reasoning model thinks before answering.
 
+Error analysis
+:   Reading real outputs or traces, labeling the failures, and grouping them into a taxonomy. This is the starting point for useful evals.
+
 Few-shot prompting
 :   Including example input and output pairs in the prompt.
 
+Golden dataset
+:   A curated set of inputs with expected outputs or labels, used for regression evals.
+
 Grounding
 :   Tying model outputs to provided sources, so claims can be verified.
+
+Guardrails
+:   Checks around an LLM call (input filters, output validators, policies) that block or repair bad behavior.
 
 Hallucination
 :   Fluent output that's unsupported by, or contradicts, the facts or sources.
@@ -41,6 +50,9 @@ Indirect prompt injection
 
 Instruction hierarchy
 :   The trained priority of system or developer messages over user messages, and of user messages over tool outputs.
+
+Lethal trifecta
+:   An agent that has access to private data, is exposed to untrusted content, and has a way to send data out. Together, these make prompt-injection data theft possible (a term coined by Simon Willison).
 
 LLM-as-judge
 :   Using an LLM with a rubric to grade outputs. It must be validated against human labels.
@@ -71,6 +83,9 @@ Self-consistency
 
 Skill
 :   A packaged set of instructions and resources that an agent loads on demand. Usually a folder with a `SKILL.md` file.
+
+Spotlighting
+:   Clearly marking untrusted content (with delimiters, encoding, or labels) so the model treats it as data. It helps, but it isn't a complete defense against injection.
 
 Structured output
 :   Model output constrained to a schema, such as JSON Schema or a Pydantic model.

@@ -1,0 +1,34 @@
+nav:
+  - Overview: index.md
+  - L0 Foundations:
+      - 01. How LLMs Work: 01-how-llms-work/index.md
+      - 02. Anatomy of a Prompt: 02-prompt-anatomy/index.md
+  - L1 Core Techniques:
+      - 03. Zero/Few-Shot: 03-few-shot/index.md
+      - 04. Clarity and Structure: 04-clarity-and-structure/index.md
+      - 05. Structured Outputs: 05-structured-outputs/index.md
+      - 06. Prompt Chaining: 06-prompt-chaining/index.md
+  - L2 Reasoning:
+      - 07. Chain-of-Thought: 07-chain-of-thought/index.md
+      - 08. Advanced Reasoning: 08-advanced-reasoning/index.md
+      - 09. Reasoning Models: 09-reasoning-models/index.md
+  - L3 Context and RAG:
+      - 10. Context Engineering: 10-context-engineering/index.md
+      - 11. RAG and Grounding: 11-rag-and-grounding/index.md
+      - 12. Long Context and Memory: 12-long-context-memory/index.md
+      - 13. Multimodal: 13-multimodal/index.md
+  - L4 Agents and Tools:
+      - 14. Tool Calling: 14-tool-calling/index.md
+      - 15. Agent Patterns: 15-agent-patterns/index.md
+      - 16. MCP and Skills: 16-mcp-and-skills/index.md
+      - 17. Multi-Agent: 17-multi-agent/index.md
+  - L5 Production and Safety:
+      - 18. Evaluation: 18-evaluation/index.md
+      - 19. Prompt Optimization: 19-prompt-optimization/index.md
+      - 20. Prompt Security: 20-prompt-security/index.md
+      - 21. PromptOps: 21-promptops/index.md
+      - 22. Fine-tune vs Prompt vs RAG: 22-finetune-vs-prompt-vs-rag/index.md
+  - Applied Tracks:
+      - 23. Coding Agents: 23-coding-agents/index.md
+      - 24. Task Playbooks: 24-task-playbooks/index.md
+      - 25. Generative Media: 25-generative-media/index.md

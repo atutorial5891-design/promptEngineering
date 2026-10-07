@@ -1,0 +1,6 @@
+nav:
+  - index.md
+  - Anthropic Interactive Tutorial: anthropic-interactive-tutorial.md
+  - Udemy Prompt Engineering Bootcamp: udemy-prompt-engineering-bootcamp.md
+  - glob: "*.md"
+    ignore_no_matches: true

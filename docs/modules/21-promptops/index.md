@@ -71,9 +71,9 @@ Track cost per successful task, p95 latency, cache hit rate, regression pass rat
 ## 9. Must-read references
 
 - [Langfuse](https://langfuse.com/)
-- [Arize Phoenix](https://phoenix.arize.com/)
-- [Anthropic: Prompt caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching)
-- [OpenAI: Prompt caching](https://platform.openai.com/docs/guides/prompt-caching)
+- [Arize Phoenix](https://arize.com/phoenix/)
+- [Anthropic: Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)
+- [OpenAI: Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching)
 - [Applied LLMs](https://applied-llms.org/)
 
 ## 10. Tutorials covering this module

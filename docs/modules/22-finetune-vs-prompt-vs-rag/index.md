@@ -71,7 +71,7 @@ Same eval suite for prompt-only, RAG, and fine-tuned variants; include cost per 
 ## 9. Must-read references
 
 - [Chip Huyen: AI Engineering (book)](https://huyenchip.com/)
-- [OpenAI: Model optimization / fine-tuning guide](https://platform.openai.com/docs/guides/model-optimization)
+- [OpenAI: Model optimization / fine-tuning guide](https://developers.openai.com/api/docs/guides/model-optimization)
 
 ## 10. Tutorials covering this module
 

@@ -132,9 +132,9 @@ This module is conceptual. The lab checks your mental model empirically: run the
 
 | Provider | Notes |
 | --- | --- |
-| Anthropic (Claude) | Adaptive thinking with an `effort` setting on current models. With thinking on, only default sampling values are accepted |
-| OpenAI (GPT) | `reasoning.effort` (Responses API). Remove `temperature` and `top_p` when reasoning is on |
-| Google (Gemini) | `thinkingLevel` on Gemini 3+. Google recommends leaving temperature at the default of 1.0 |
+| Anthropic (Claude) | Thinking (adaptive or extended) plus an effort setting on current models. Sampling parameters are restricted while thinking is on |
+| OpenAI (GPT) | `reasoning.effort` (Responses API). Sampling parameters like `temperature` aren't supported on reasoning settings |
+| Google (Gemini) | `thinkingLevel` on Gemini 3+. Google's guidance is to keep temperature at the default |
 | Open models | You control the chat template. A mismatched template quietly degrades quality |
 
 These details change quickly, so verify them in [Official guides](../../resources/official-guides.md) and log changes in [What's new](../../reference/whats-new.md).

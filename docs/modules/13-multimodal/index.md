@@ -68,8 +68,8 @@ Field-level accuracy on extracted data from 20 documents/screenshots; human spot
 ## 9. Must-read references
 
 - [Google: Prompt design strategies (multimodal)](https://ai.google.dev/gemini-api/docs/prompting-strategies)
-- [Anthropic: Vision](https://docs.claude.com/en/docs/build-with-claude/vision)
-- [OpenAI: Images and vision](https://platform.openai.com/docs/guides/images-vision)
+- [Anthropic: Vision](https://platform.claude.com/docs/en/build-with-claude/vision)
+- [OpenAI: Images and vision](https://developers.openai.com/api/docs/guides/images-vision)
 
 ## 10. Tutorials covering this module
 

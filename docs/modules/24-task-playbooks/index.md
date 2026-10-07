@@ -68,7 +68,7 @@ One small eval dataset per playbook in evals/datasets/; track scores in the prom
 ## 9. Must-read references
 
 - [DeepLearning.AI: ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/courses/chatgpt-prompt-eng)
-- [Anthropic: Prompt engineering overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Anthropic: Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 
 ## 10. Tutorials covering this module
 

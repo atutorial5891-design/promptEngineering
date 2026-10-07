@@ -72,7 +72,7 @@ Needle tests at various depths; multi-session consistency tests for memory.
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172)
 - [MemGPT](https://arxiv.org/abs/2310.08560)
 - [Generative Agents](https://arxiv.org/abs/2304.03442)
-- [Anthropic: Long context tips](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/long-context-tips)
+- [Anthropic: Prompting best practices - long context](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#long-context-prompting)
 
 ## 10. Tutorials covering this module
 

@@ -74,6 +74,10 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+# MkDocs excludes /templates/ by default; this hub publishes its doc templates.
+exclude_docs: |
+  !/templates/
+
 validation:
   nav:
     omitted_files: warn

@@ -71,9 +71,9 @@ Effort sweep (low/medium/high) on one dataset: accuracy, latency, cost. Old prom
 
 ## 9. Must-read references
 
-- [OpenAI: Reasoning best practices](https://platform.openai.com/docs/guides/reasoning-best-practices)
-- [OpenAI: Prompt guidance (per model)](https://developers.openai.com/api/docs/guides/prompt-guidance)
-- [Anthropic: Extended / adaptive thinking](https://docs.claude.com/en/docs/build-with-claude/extended-thinking)
+- [OpenAI: Reasoning best practices](https://developers.openai.com/api/docs/guides/reasoning-best-practices)
+- [OpenAI: Latest model guide (prompting guidance)](https://developers.openai.com/api/docs/guides/latest-model)
+- [Anthropic: Extended / adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/extended-thinking)
 - [Google: Gemini thinking](https://ai.google.dev/gemini-api/docs/thinking)
 
 ## 10. Tutorials covering this module

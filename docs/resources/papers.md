@@ -50,7 +50,7 @@ The research behind each technique, grouped by module. **Start with the surveys.
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP](https://arxiv.org/abs/2005.11401) (Lewis et al., 2020)
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172) (Liu et al., 2023). Models use information at the start and end of the context better than the middle.
 - [Large Language Models Can Be Easily Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093) (Shi et al., 2023)
-- [Context Rot (Chroma research)](https://research.trychroma.com/context-rot) (2025). Performance drops as input length grows, even on simple tasks.
+- [Context Rot (Chroma research)](https://www.trychroma.com/research/context-rot) (2025). Performance drops as input length grows, even on simple tasks.
 - [MemGPT](https://arxiv.org/abs/2310.08560) (Packer et al., 2023). Memory managed like an operating system manages it.
 - [Generative Agents](https://arxiv.org/abs/2304.03442) (Park et al., 2023). Memory streams, reflection, and planning.
 

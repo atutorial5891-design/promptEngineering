@@ -43,10 +43,14 @@ def main() -> None:
     doc_dir.mkdir(parents=True)
     (doc_dir / "index.md").write_text(text)
     lab_dir.mkdir(parents=True, exist_ok=True)
-    readme = f"# Lab {num}: {args.title}\n\nModule doc: `docs/modules/{num}-{slug}/index.md`\n\n## Task\n\nTODO\n"
+    module_doc = f"docs/modules/{num}-{slug}/index.md"
+    readme = f"# Lab {num}: {args.title}\n\nModule doc: `{module_doc}`\n\n## Task\n\nTODO\n"
     (lab_dir / "README.md").write_text(readme)
     print(f"Created {doc_dir.relative_to(ROOT)}/index.md and {lab_dir.relative_to(ROOT)}/README.md")
-    print("Next: add the module to docs/modules/index.md and docs/learning-path/progress.md")
+    print(
+        "Next: add the module to docs/modules/.nav.yml (sidebar), docs/modules/index.md, "
+        "and docs/learning-path/progress.md"
+    )
 
 
 if __name__ == "__main__":

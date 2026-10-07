@@ -74,8 +74,8 @@ Separate retrieval metrics (recall@k, MRR) from generation metrics (faithfulness
 ## 9. Must-read references
 
 - [RAG (Lewis et al.)](https://arxiv.org/abs/2005.11401)
-- [Anthropic: Contextual retrieval](https://www.anthropic.com/news/contextual-retrieval)
-- [Anthropic: Reduce hallucinations](https://docs.claude.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)
+- [Anthropic: Contextual retrieval](https://www.anthropic.com/engineering/contextual-retrieval)
+- [Anthropic: Reduce hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495)
 
 ## 10. Tutorials covering this module
