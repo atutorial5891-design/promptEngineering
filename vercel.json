@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "pip install mkdocs-material mkdocs-awesome-nav mkdocs-git-revision-date-localized-plugin",
-  "buildCommand": "mkdocs build",
+  "installCommand": "uv sync --frozen --only-group docs",
+  "buildCommand": "uv run mkdocs build",
   "outputDirectory": "site",
   "cleanUrls": true
 }
