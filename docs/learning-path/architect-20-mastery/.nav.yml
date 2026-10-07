@@ -1,0 +1,27 @@
+nav:
+  - index.md
+  - Tier A · Foundations:
+      - 01-how-llms-work.md
+      - 02-prompt-anatomy.md
+      - 04-clarity-and-structure.md
+      - 05-structured-outputs.md
+      - 03-few-shot.md
+  - Tier B · Core story:
+      - 10-context-engineering.md
+      - 11-rag-and-grounding.md
+      - 12-long-context-memory.md
+      - 06-prompt-chaining.md
+      - 14-tool-calling.md
+      - 15-agent-patterns.md
+      - 16-mcp-and-skills.md
+      - 17-multi-agent.md
+  - Tier C · Ship and defend:
+      - 18-evaluation.md
+      - 20-prompt-security.md
+      - 21-promptops.md
+      - 22-finetune-vs-prompt-vs-rag.md
+      - 09-reasoning-models.md
+  - Tier D · Cross-cutting:
+      - x1-cost-latency-reliability.md
+      - x2-governance-model-risk.md
+  - exit-drills.md

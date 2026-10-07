@@ -8,6 +8,7 @@ Prompting advice is tied to specific model generations. Log changes here monthly
 
 | Date | Change | Source | Modules | Action |
 | --- | --- | --- | --- | --- |
+| 2026-10 | Architect workbook page X2 summarises AI governance frameworks: SR 11-7, NIST AI RMF 1.0 + GenAI Profile, EU AI Act (phased obligations), ISO/IEC 42001. Application dates and guidance change | [SR 11-7](https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.htm), [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) | Workbook X2, 18, 20, 21 | Re-check the status quarterly with compliance; update X2 |
 | 2026-10 | OpenAI GPT-6 family (Astra, Sol, Luna; GPT-6.1 Sol) released, with a new model guide | [OpenAI](https://openai.com/index/gpt-6-astra/) | 09, 15, 23 | Re-read the per-model prompt guidance. Re-run the effort sweep |
 | 2026-09 | Google announces Gemini 4 Argon (limited rollout), citing robustness to indirect prompt injection | [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) | 09, 20 | Watch for developer availability |
 | 2026 | Reasoning-first prompting is now the norm. All three major providers expose an effort or thinking-level control and restrict sampling parameters while thinking | Provider docs ([Official guides](../resources/official-guides.md)) | 01, 07, 09 | Modules 01 and 09 reflect this |

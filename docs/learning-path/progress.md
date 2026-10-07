@@ -6,13 +6,14 @@ Update this page whenever you finish a module, a lab, or a course section.
 
 ## Architect 20% track
 
-Priority filter for Architecture roles. Details and checklists: [Architect 20%](architect-20.md).
+Priority filter for Architecture roles. Details and checklists: [Architect 20%](architect-20.md). Practice questions: [Architect 20% Workbook](architect-20-mastery/index.md).
 
 | Tier | Focus | Status |
 | --- | --- | --- |
 | A | Foundations (01–05) | todo |
 | B | Resume core — context, RAG, agents, MCP (06, 10–12, 14–17) | todo |
 | C | Ship and defend (09, 18, 20–22) | todo |
+| D | Cross-cutting — cost/latency/reliability, governance & model risk (X1, X2) | todo |
 | Exit | Prompt contract + eval pack + architecture walkthrough | todo |
 
 Mark a tier `done` only when every checkbox in that tier on the Architect 20% page is checked.
