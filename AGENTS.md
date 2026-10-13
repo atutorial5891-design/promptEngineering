@@ -21,6 +21,7 @@ uv run pytest && uv run ruff check .
 - **Prompts** live in `prompts/` as YAML. The `id` must equal the file stem. Never edit a version that's in use; create `vN+1` instead.
 - **Eval data** lives in `evals/datasets/`. Never reuse eval items as few-shot examples. A test enforces this for the sentiment lab.
 - **Lab folders** match module numbers: `labs/NN_slug/`.
+- **Blog posts** live in `docs/blog-series/post-NN-slug.md`. Start from `post-template.md`, and follow `docs/blog-series/writing-standard.md` (red lines, style, formats, header and footer, rubric). When a writing rule changes, edit the standard and its change log, not individual posts.
 - **Links:**
     - Link to official docs and arXiv `abs` pages.
     - Verify that links resolve. CI runs lychee weekly.

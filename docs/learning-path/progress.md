@@ -64,25 +64,27 @@ See the [Tutorial tracker](../tutorials/index.md). Course progress is kept there
 
 LinkedIn posts from the [Blog Series](../blog-series/index.md) page. **Status keys:** `idea` · `drafting` · `review` (confidentiality / compliance check) · `scheduled` · `published`
 
-| # | Post | Target week | Status | Published (link) |
-| --- | --- | --- | --- | --- |
-| 0 | The 20% of prompt engineering an architect actually needs | W1 | idea | |
-| 1 | Prompts are contracts, not clever wording | W4 | idea | |
-| 2 | Valid JSON isn't correct output | W5 | idea | |
-| 3 | Context beats clever wording | W6 | idea | |
-| 4 | RAG in a bank: access control lives in retrieval | W7 | idea | |
-| 5 | Why wash-trade detection needed GraphRAG | W3 | idea | |
-| 6 | Workflows first, agents second | W8 | idea | |
-| 7 | The model asks, your code decides: tools and MCP | W9 | idea | |
-| 8 | Six agents: when multi-agent is worth it | W10 | idea | |
-| 16 | Agents talking to agents: A2A, and why it isn't MCP (+ [demo](../blog-series/demo-a2a-surveillance.md)) | W11 | idea | |
-| 9 | No release without evals | W12 | idea | |
-| 10 | Prompt injection when the suspects write your input | W2 | idea | |
-| 11 | Prompt, RAG, GraphRAG or fine-tune? | W13 | idea | |
-| 12 | Model routing: the smallest model that holds quality | W14 | idea | |
-| 13 | Design for the bad day | W15 | idea | |
-| 14 | An LLM agent is a model: governance in a bank | W16 | idea | |
-| 15 | Prompt-engineering myths I stopped believing | W17 | idea | |
+Rows are in publishing order (see the [17-week plan](../blog-series/index.md#publishing-order-17-weeks)). Week 0 is setup: profile, pre-clearance, three posts banked, injection demo built.
+
+| Week | # | Post | Demo | Status | Published (link) | New followers |
+| --- | --- | --- | --- | --- | --- | --- |
+| W1 | 10 | [Prompt injection when the suspects write your input](../blog-series/post-10-prompt-injection.md) | `01-injection-quarantine` | drafting | | |
+| W2 | 5 | Why wash-trade detection needed GraphRAG | `02-graphrag-ownership` | idea | | |
+| W3 | 0 | The 20% of prompt engineering an architect actually needs (series-map carousel) | — | idea | | |
+| W4 | 1 | Prompts are contracts, not clever wording | — | idea | | |
+| W5 | 4 | RAG in a bank: access control lives in retrieval | `03-entitled-rag` | idea | | |
+| W6 | 9 | No release without evals | `04-eval-gate` | idea | | |
+| W7 | 6 | Workflows first, agents second | `05-workflow-vs-agent` | idea | | |
+| W8 | 7 | The model asks, your code decides: tools and MCP | `06-mcp-read-write` | idea | | |
+| W9 | 2 | Valid JSON isn't correct output | `07-validation-loop` | idea | | |
+| W10 | 3 | Context beats clever wording | `08-compaction` | idea | | |
+| W11 | 8 | Six agents: when multi-agent is worth it | — | idea | | |
+| W12 | 16 | Agents talking to agents: A2A, and why it isn't MCP | [`09-a2a-surveillance`](../blog-series/demo-a2a-surveillance.md) | idea | | |
+| W13 | 12 | Model routing: the smallest model that holds quality | `10-routing` | idea | | |
+| W14 | 13 | Design for the bad day | `11-bad-day` | idea | | |
+| W15 | 11 | Prompt, RAG, GraphRAG or fine-tune? | — | idea | | |
+| W16 | 14 | An LLM agent is a model: governance in a bank | — | idea | | |
+| W17 | 15 | Prompt-engineering myths I stopped believing | — | idea | | |
 
 ## Self-assessment
 

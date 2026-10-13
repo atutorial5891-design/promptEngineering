@@ -1,4 +1,6 @@
 nav:
   - index.md
-  - "Demo: A2A surveillance agents": demo-a2a-surveillance.md
+  - Blog writing standard: writing-standard.md
   - Post draft template: post-template.md
+  - "Post 10 (first): Prompt injection": post-10-prompt-injection.md
+  - "Demo: A2A surveillance agents": demo-a2a-surveillance.md

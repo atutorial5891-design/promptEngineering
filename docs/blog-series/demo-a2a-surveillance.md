@@ -4,7 +4,7 @@
     **Goal:** a short, recordable demo for [Post 16 · Agents talking to agents](index.md#16-agents-talking-to-agents-a2a-and-why-it-isnt-mcp). It shows A2A (Agent2Agent) communication between agents "owned" by different teams, using your surveillance story.  
     **Cost target:** about **$1–6 for a month of rehearsals and recording** (illustrative; see the [cost estimate](#cost-estimate)). Zero-cloud and Lambda-only options are also given.  
     **Data:** 100% **synthetic**. No employer code, names, data or architecture details.  
-    **Where the code lives:** a separate repo (for example `a2a-surveillance-demo`), because this hub is docs-only. Link it from the post.  
+    **Where the code lives:** the `09-a2a-surveillance/` folder of the shared [demo-lab repo](index.md#demo-lab-on-aws-one-repo-minimal-spend) (for example `agents-under-audit-lab`), because this hub is docs-only. Link it from the post.  
     **Facts checked:** 2026-10-07 (A2A spec v1.0.x; Amazon Bedrock AgentCore A2A support; Bedrock prices). Re-check before you build.
 
 ## The story the demo tells
