@@ -22,7 +22,7 @@ For your Architecture roles, prompt engineering is a **design and governance ski
 | Defend prompt-injection, PII/MNPI, and HITL in reviews | Deep multimodal or generative-media prompting |
 | Decide prompt vs RAG vs fine-tune with evidence | Rebuild model training stacks from scratch |
 
-**Bar to hit:** you can walk into an architecture / model-risk review and defend *prompt contracts, context strategy, tool boundaries, evals, and controls* — the same storyline as your Morgan Stanley agentic surveillance work.
+**Bar to hit:** you can walk into an architecture / model-risk review and defend *prompt contracts, context strategy, tool boundaries, evals, and controls* — the same storyline as your agentic trade-surveillance work.
 
 ```mermaid
 flowchart TB
