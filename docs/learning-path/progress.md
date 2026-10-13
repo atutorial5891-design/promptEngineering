@@ -75,13 +75,14 @@ LinkedIn posts from the [Blog Series](../blog-series/index.md) page. **Status ke
 | 6 | Workflows first, agents second | W8 | idea | |
 | 7 | The model asks, your code decides: tools and MCP | W9 | idea | |
 | 8 | Six agents: when multi-agent is worth it | W10 | idea | |
-| 9 | No release without evals | W11 | idea | |
+| 16 | Agents talking to agents: A2A, and why it isn't MCP (+ [demo](../blog-series/demo-a2a-surveillance.md)) | W11 | idea | |
+| 9 | No release without evals | W12 | idea | |
 | 10 | Prompt injection when the suspects write your input | W2 | idea | |
-| 11 | Prompt, RAG, GraphRAG or fine-tune? | W12 | idea | |
-| 12 | Model routing: the smallest model that holds quality | W13 | idea | |
-| 13 | Design for the bad day | W14 | idea | |
-| 14 | An LLM agent is a model: governance in a bank | W15 | idea | |
-| 15 | Prompt-engineering myths I stopped believing | W16 | idea | |
+| 11 | Prompt, RAG, GraphRAG or fine-tune? | W13 | idea | |
+| 12 | Model routing: the smallest model that holds quality | W14 | idea | |
+| 13 | Design for the bad day | W15 | idea | |
+| 14 | An LLM agent is a model: governance in a bank | W16 | idea | |
+| 15 | Prompt-engineering myths I stopped believing | W17 | idea | |
 
 ## Self-assessment
 

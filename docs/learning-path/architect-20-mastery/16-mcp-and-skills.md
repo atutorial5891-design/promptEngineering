@@ -171,6 +171,14 @@ flowchart LR
 ??? question "T1. 'MCP is just function calling with extra steps.' Fair?"
     **Answer:** Partly. At the model level it **still ends up as tool definitions and calls**. The value is the **standard**: discovery, transports, auth patterns, resources and prompts, and reusable servers across many apps and vendors. For one app with three tools, plain function calling may be enough.
 
+??? question "T3. 'MCP and A2A do the same thing, so pick one.' Correct?"
+    **Answer:** No, they solve different problems:
+
+    - **MCP** connects an agent to **tools and data** you control (agent → tool).
+    - **A2A** (Agent2Agent, an open standard at v1.0 as of 2026) connects an agent to **another agent**: an opaque peer with its own reasoning, owner and permissions, which may run long tasks and ask for input (agent → agent).
+
+    In a bank, your surveillance agent might call trade data through MCP and delegate comms review to another team's agent through A2A. Treat A2A results as **untrusted input**, just like tool results. See the [A2A demo design](../../blog-series/demo-a2a-surveillance.md).
+
 ??? question "T2. 'Our MCP servers are internal, so tool descriptions don't need review.' Agree?"
     **Answer:** No. Descriptions are prompt text that shape agent behaviour. A careless edit can change tool selection across every agent, and a malicious insider could inject instructions. Review, version and evaluate changes to descriptions like code.
 

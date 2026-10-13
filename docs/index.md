@@ -46,7 +46,7 @@ flowchart TB
 | --- | --- |
 | [Architect 20%](learning-path/architect-20.md) | Resume-synced “master 20%, deepen later” path for Architecture roles |
 | [Architect 20% Workbook](learning-path/architect-20-mastery/index.md) | Topic-by-topic explanations and practice questions, plus exit drills |
-| [Blog Series](blog-series/index.md) | Curated 16-post LinkedIn series built from the 20% topics, with hooks, outlines and a writing template |
+| [Blog Series](blog-series/index.md) | Curated 17-post LinkedIn series built from the 20% topics, with hooks, outlines, a writing template and a low-cost A2A demo on AWS |
 | [Learning Path](learning-path/roadmap.md) | Full L0–L5 levels, weekly plan, progress dashboard |
 | [Modules](modules/index.md) | 25 design docs, one per topic, all using the same template |
 | [Architectures](architectures/index.md) | System designs for LLM apps and agents, as diagrams |

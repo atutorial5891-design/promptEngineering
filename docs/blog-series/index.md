@@ -1,7 +1,7 @@
 # LinkedIn Blog Series — Prompt Engineering for Architects
 
 !!! abstract "At a glance"
-    **What this is:** a curated list of 16 LinkedIn posts built from the [Architect 20%](../learning-path/architect-20.md) topics. Each post is grounded in your agentic trade-surveillance work.
+    **What this is:** a curated list of 17 LinkedIn posts, plus a low-cost [A2A demo](demo-a2a-surveillance.md), built from the [Architect 20%](../learning-path/architect-20.md) topics. Each post is grounded in your agentic trade-surveillance work.
     **Source material:** every post links to the [Architect 20% Workbook](../learning-path/architect-20-mastery/index.md) pages it draws on. The explanations, examples and "tricky" myths there are your raw material.
     **Track status:** in the [Progress dashboard](../learning-path/progress.md#blog-series).
     **Last reviewed:** 2026-10-07
@@ -15,6 +15,7 @@
 
 The first draft had 13 posts plus two bookends. Review changes:
 
+- **Added Post 16 on agent-to-agent communication (A2A)**, with a recordable [AWS demo](demo-a2a-surveillance.md). A2A became a v1.0 open standard in 2026, and cross-team agents are a natural next chapter after Post 8.
 - **Kept RAG and GraphRAG as separate posts.** GraphRAG for wash-trade detection is your most distinctive story, and it deserves its own post.
 - **Moved reasoning models out of the multi-agent post** into a new **model routing** post, together with the cost material from X1. Routing is a cost-and-quality story, not a multi-agent one.
 - **Split X1 into two posts.** Routing and cost (Post 12) and reliability (Post 13) each have a strong, separate hook.
@@ -39,6 +40,7 @@ The first draft had 13 posts plus two bookends. Review changes:
 | 09 Reasoning models | 12 | 21 PromptOps | 9 |
 | 10 Context engineering | 3 | 22 Fine-tune vs prompt vs RAG | 11 |
 | 11 RAG and GraphRAG | 4, 5 | X1 Cost, latency, reliability | 12, 13 |
+| | | A2A (beyond the 20%: emerging standard) | 16 |
 | 12 Long context and memory | 3 | X2 Governance and model risk | 14 |
 
 ---
@@ -56,6 +58,7 @@ The first draft had 13 posts plus two bookends. Review changes:
 | 6 | Workflows first, agents second | C · Agents | 06, 15 | Post |
 | 7 | The model asks, your code decides: tools and MCP | C · Agents | 14, 16 | Post |
 | 8 | Six agents: when multi-agent is worth it (and when it isn't) | C · Agents | 17 | Article |
+| 16 | Agents talking to agents: A2A, and why it isn't MCP | C · Agents | 16, 17, 20 (+ A2A) | Article + demo video |
 | 9 | No release without evals | D · Ship and defend | 18, 21 | Article |
 | 10 | Prompt injection when the suspects write your input | D · Ship and defend | 20 | Post |
 | 11 | Prompt, RAG, GraphRAG or fine-tune? Decide with evals | D · Ship and defend | 22 | Post + diagram |
@@ -225,6 +228,33 @@ The first draft had 13 posts plus two bookends. Review changes:
 - **Visual:** The supervisor fan-out diagram from the [workbook overview](../learning-path/architect-20-mastery/index.md#the-running-scenario-used-on-every-page)
 - **Credit:** [Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
 - **Takeaway:** "Every extra agent must pay for itself in quality or speed."
+
+### 16 · Agents talking to agents: A2A, and why it isn't MCP
+
+- **Hook:** "MCP lets an agent use a tool. A2A lets an agent hand work to another agent that belongs to a different team, and whose insides you can't see."
+- **Cover:**
+    - Two kinds of agent communication: **inside one system** (shared state in LangGraph, a supervisor passing structured results) vs **across boundaries** (different teams, vendors or clouds).
+    - A2A basics in plain words:
+        - The **Agent Card**: a JSON "business card" at `/.well-known/agent-card.json` listing skills, endpoint and auth.
+        - **Messages** with parts (text, files, data).
+        - **Tasks** with a lifecycle (working, input-required, auth-required, completed, failed, canceled, rejected).
+        - **Artifacts**: the results.
+        - Streaming and push notifications.
+        - Bindings: JSON-RPC, gRPC and HTTP+JSON.
+    - **A2A vs MCP**: agent-to-agent (an opaque peer with its own reasoning, long-running tasks) vs agent-to-tool (a function you control). They complement each other.
+    - **Security across agent boundaries:**
+        - Authentication per agent and per skill.
+        - Signed Agent Cards.
+        - **Treat other agents' artifacts as untrusted input**, because injection can travel between agents.
+        - Data minimisation and entitlements when data crosses teams.
+        - Budgets against agent ping-pong.
+        - The `A2A-Version` header and version pinning.
+    - **When not to use A2A**: agents in one process or one team can share state directly. A2A pays off at organisational or vendor boundaries.
+- **Your story:** the Comms Compliance and Reference Data teams publish their agents as A2A services, and the surveillance orchestrator discovers and delegates to them, with HITL approval and an injection flag along the way.
+- **Draw from:** [Demo design](demo-a2a-surveillance.md), [16](../learning-path/architect-20-mastery/16-mcp-and-skills.md), [17](../learning-path/architect-20-mastery/17-multi-agent.md), [20](../learning-path/architect-20-mastery/20-prompt-security.md)
+- **Visual:** the demo architecture diagram, plus a 3–4 minute screen recording of the [seven showcase moments](demo-a2a-surveillance.md#the-seven-showcase-moments-what-viewers-should-see)
+- **Credit:** [A2A Protocol specification](https://a2a-protocol.org/v1.0.0/specification/), [AWS: Deploy A2A servers in AgentCore Runtime](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-a2a.html), [Model Context Protocol](https://modelcontextprotocol.io/)
+- **Takeaway:** "Inside a team, agents share state. Across teams, they need a contract: discovery, tasks, auth and untrusted results."
 
 ---
 
